@@ -1,14 +1,9 @@
 #!/bin/bash
-#include <stdio.h>
-
-/**
- * main - Entry point
- * Description: prints "\"Programming is like building a multilingual puzzle"
- * Return: 0
- */
-
-int main(void)
+#include<stdio.h>
+int main()
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+    char Mystr[] = "Programming is like building a multilingual puzzle";
+
+    puts(Mystr);
+	return 0;
 }
