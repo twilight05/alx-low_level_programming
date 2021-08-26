@@ -1,0 +1,1 @@
+This directory contains answers to the fundamentals of C
