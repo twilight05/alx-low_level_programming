@@ -1,20 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
- * Description: prints 'Holberton \n'
- * Return: Always 0 (success)
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-char str[] = "Holberton\n";
-int i = 0;
-
-while (str[i] != '\0')
-	{
-char c = str[i];
-
-putchar(c);
-i++;
+char c[10] = "_putchar";
+int i;
+for (i = 0; i < 8; i++)
+{
+_putchar(c[i]);
 }
+_putchar('\n');
 return (0);
 }
